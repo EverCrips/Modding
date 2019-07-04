@@ -1,0 +1,328 @@
+#cuerpo{
+    z-index: -1;
+}
+@font-face { 
+    font-family: inherit ; 
+}
+
+body {
+margin: -21px 0 0 0;
+font-family: Arial, Helvetica, sans-serif;
+background:url(../images/fondo.JPG);
+background-size: cover;
+
+}
+    #tip{
+    font-size:10px;
+    margin: 270px 0 0 1230px;
+    }
+    
+    #chilemapa{
+        margin-left: 91%;
+    }
+    
+    
+   
+body body,div,table,a{
+    font-family: inherit;
+}
+
+#cabeceralogin{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/baner.jpg);
+    background-size: cover;
+}
+    
+#cabeceracentro{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/5regop.jpg);
+    background-size: cover;
+}
+	#banner{
+            margin-top:20px;
+            height:160px;
+            width:200px;
+            float:left;
+	}
+        #banner2{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+        
+        
+        
+         
+#cabecerasur{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/sunset.jpeg);
+    background-size: 1520px 100%;
+}
+	#banner{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+        
+        #banner2{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+
+#cabeceranorte{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/norte.jpg);
+    background-size: 1520px 100%;
+}
+	#banner{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+        
+        #banner2{
+            margin-top:20px;
+            height:160px;
+            width:130px;
+            float:right;
+            
+	}
+        
+#cabeceramenu{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/banner_menu.jpg);
+    background-size: 1520px 100%;
+}
+	#banner{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+        
+        #banner2{
+            margin-top:20px;
+            height:160px;
+            width:130px;
+            float:right;
+	}
+
+#cabeceraerror{
+    margin:0px;
+    background-color: #0099ff;
+    float:left;
+    width: 100%;
+    height:200px;
+    background: url(../images/errorjpe.jpg);
+    background-size: 1520px 100%;
+}
+	#banner{
+            margin-top:30px;
+            height:160px;
+            width:200px;
+            margin-left: 10px;
+	}
+        
+        #banner2{
+            margin-top:20px;
+            height:160px;
+            width:130px;
+            float:right;
+	}
+        
+#carrete{
+        margin-top: -500px;
+        margin-right: 0px;
+        margin-left: 600px;
+}
+
+#mapito{
+        height: 900px;
+        width: 889px;
+        margin-top: -450px;
+        margin-right: 0px;
+        margin-left: 630px;
+}
+    
+#buscare{
+        padding-top:  480px;
+        padding-left: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+	font-family: inherit;
+	font-size: 20px;
+}
+     
+           
+#logoempre{
+    
+      width:400px;
+      height: 300px;
+      margin:0px 600px;
+               
+} 
+    
+        
+#contenido{
+	padding:100px;
+	font-family: inherit;
+	font-size: 20px;
+}
+
+
+.nulo th td{
+    border: 10px black solid;
+    background: #999999;
+    border: 0px;
+}
+
+#entrada{
+    padding:100px 730px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+
+#titulo{
+         font-family: Arial;
+	 font-size: 40px;
+	 font-weight:bold;
+         
+}
+
+
+
+
+
+#white{
+	background-color:white;
+	padding: 0px 150px 40px 0;
+	border:solid;
+}
+input[type="text"],input[type="password"],input[type="date"],input[type="number"] {
+    width: 200px;
+    font-size:20px;
+    display: block;
+}
+input[type="button"],input[type="reset"],input[type="submit"] {
+        width: 100px;
+	height:30px;
+	float:right;
+}	
+
+#volver{
+    border:solid white 1px;
+    padding: 14px 25px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+#usuario{ 
+            font-size: 30px;
+            font-weight:bold;
+            text-align: right;
+        }      
+            #usuario a{ 
+                color: black;
+                border:solid black 1px;
+                padding: 14px 25px;
+                text-align: center; 
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+            }
+            
+#map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #right-panel {
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+
+      #right-panel select, #right-panel input {
+        font-size: 15px;
+      }
+
+      #right-panel select {
+        width: 100%;
+      }
+
+      #right-panel i {
+        font-size: 12px;
+      }
+      #right-panel {
+        height: 100%;
+        float: right;
+        width: 390px;
+        overflow: auto;
+      }
+      #map {
+        margin-right: 400px;
+      }
+      #floating-panel {
+        background: #fff;
+        padding: 5px;
+        font-size: 14px;
+        font-family: Arial;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+        display: none;
+      }
+      @media print {
+        #map {
+          height: 500px;
+          margin: 0;
+        }
+        #right-panel {
+          float: none;
+          width: auto;
+        }
+      }
